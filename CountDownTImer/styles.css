@@ -25,7 +25,7 @@ h1 {
   justify-items: center;
   width: 100%;
   padding-top: 25px;
-  gird-col-gap: 23px;
+  grid-row-gap: 23px;
 }
 
 .circle{
@@ -48,6 +48,7 @@ h1 {
 
 .orange{
     color: #ff954a;
+    font-weight: 900;
     text-shadow: 0 0 0px #fff, 0 0 50px #ff954a;
 }
 
@@ -55,4 +56,18 @@ h1 {
 display: flex;
 justify-content: space-between;
 width: 187px;
+}
+img{
+  width: 45px;
+  height: 45px;
+}
+
+button{
+  border: none; 
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+#playBtn{
+  display: block;
 }
