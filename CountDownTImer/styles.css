@@ -52,22 +52,28 @@ h1 {
     text-shadow: 0 0 0px #fff, 0 0 50px #ff954a;
 }
 
-#controls{
-display: flex;
-justify-content: space-between;
-width: 187px;
-}
-img{
-  width: 45px;
-  height: 45px;
-}
-
 button{
   border: none; 
   cursor: pointer;
   outline: none;
   background-color: transparent;
 }
-#playBtn{
+
+#controls{
+display: flex;
+justify-content: space-between;
+width: 187px;
+}
+
+img{
+  width: 45px;
+  height: 45px;
+}
+
+
+#playIcon{
   display: block;
+}
+#pauseIcon{
+  display: none;
 }
